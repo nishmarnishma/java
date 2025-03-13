@@ -5,9 +5,11 @@ public class Condition {
             System.out.println("A grade");
         } else {
             if (mark >= 40) {
+                System.out.println("B grade");
+            } else {
                 System.out.println("C grade");
             }
         }
-
     }
+
 }
